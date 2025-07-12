@@ -36,4 +36,4 @@ Este portfólio foi criado para destacar minha experiência em [liste tecnologia
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Brunocmp/bruno.github.iong README.md…]()
+   git clone https://github.com/Brunocmp/bruno.github.io README.md…]()
