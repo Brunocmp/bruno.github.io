@@ -48,7 +48,7 @@ type();
 const filterButtons = document.querySelectorAll('.filter-btn');
 const projectCards = document.querySelectorAll('.project-card');
 
-filterButtons.forEach(button => {
+filterButtons?.forEach(button => {
   button.addEventListener('click', () => {
     filterButtons.forEach(btn => btn.classList.remove('active'));
     button.classList.add('active');
@@ -63,22 +63,3 @@ filterButtons.forEach(button => {
     });
   });
 });
-
-// GitHub API Integration (Optional)
-fetch('https://api.github.com/users/your-name/repos')
-  .then(response => response.json())
-  .then(data => {
-    const projectsGrid = document.querySelector('.projects-grid');
-    data.slice(0, 3).forEach(repo => {
-      const card = document.createElement('div');
-      card.className = 'project-card';
-      card.setAttribute('data-category', 'frontend'); // Adjust category as needed
-      card.innerHTML = `
-        <img src="assets/placeholder.jpg" alt="${repo.name}">
-        <h3>${repo.name}</h3>
-        <p>${repo.description || 'No description available'}</p>
-        <a href="${repo.html_url}" target="_blank" class="btn">View Project</a>
-      `;
-      projectsGrid.appendChild(card);
-    });
-  });
