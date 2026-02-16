@@ -423,23 +423,3 @@ footer {
   color: #0d0d0f;
   box-shadow: 0 0 15px #00f5d4;
 }
-/* ===== FIX projetos antigos ===== */
-
-.project-card:not(.neon-card) {
-  background: #ffffff;
-  color: #111;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-}
-
-.project-card:not(.neon-card) h3 {
-  color: #111;
-}
-
-.project-card:not(.neon-card) p {
-  color: #444;
-}
-
-.project-card:not(.neon-card) .project-tags span {
-  background: #f1f1f1;
-  color: #333;
-}
