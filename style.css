@@ -284,3 +284,47 @@ footer {
     font-size: 2.5rem;
   }
 }
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.project-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.featured-project {
+  border: 2px solid #0077ff;
+}
+
+.project-logo {
+  width: 160px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.project-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 18px;
+  background: #0077ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.project-button:hover {
+  background: #005ec2;
+}
