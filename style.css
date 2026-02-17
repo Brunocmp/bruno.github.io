@@ -424,3 +424,12 @@ footer {
   color: #0d0d0f;
   box-shadow: 0 0 15px #00f5d4;
 }
+.section:not(.interactive-section) .project-card {
+  background: #ffffff;
+  color: #222;
+}
+
+.section:not(.interactive-section) .project-card h3,
+.section:not(.interactive-section) .project-card p {
+  color: #222;
+}
