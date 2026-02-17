@@ -349,8 +349,8 @@ footer {
   gap: 40px;
 }
 
-/* Card */
-.project-card {
+/* Card exclusivo Neon Abyss */
+.neon-card {
   background: linear-gradient(145deg, #111, #1a1a1f);
   border-radius: 20px;
   overflow: hidden;
@@ -358,10 +358,11 @@ footer {
   box-shadow: 0 0 20px rgba(0, 255, 200, 0.08);
 }
 
-.project-card:hover {
+.neon-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 0 35px rgba(255, 0, 200, 0.2);
 }
+
 
 /* Image */
 .project-image {
