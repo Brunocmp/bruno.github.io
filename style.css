@@ -406,8 +406,7 @@ footer {
 .project-links {
   margin-top: 20px;
 }
-
-.btn {
+.neon-btn {
   display: inline-block;
   padding: 12px 22px;
   border-radius: 30px;
@@ -419,30 +418,8 @@ footer {
   transition: all 0.3s ease;
 }
 
-.btn:hover {
+.neon-btn:hover {
   background: #00f5d4;
   color: #0d0d0f;
   box-shadow: 0 0 15px #00f5d4;
-}
-.section:not(.interactive-section) .project-card {
-  background: #ffffff;
-  color: #222;
-}
-
-.section:not(.interactive-section) .project-card h3,
-.section:not(.interactive-section) .project-card p {
-  color: #222;
-}
-.btn {
-  background: #f1c40f;
-  color: #fff;
-  padding: 0.8rem 1.5rem;
-  text-decoration: none;
-  border-radius: 5px;
-  margin: 0.5rem;
-  transition: background 0.3s;
-}
-
-.btn:hover {
-  background: #e67e22;
 }
