@@ -433,3 +433,16 @@ footer {
 .section:not(.interactive-section) .project-card p {
   color: #222;
 }
+.btn {
+  background: #f1c40f;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0.5rem;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #e67e22;
+}
